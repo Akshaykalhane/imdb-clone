@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-[Home Page : Listing of Movies.](./src/images/listing.png)
-[Details Page : Details of Movies.](./src/images/details.png)
+[Home Page : Listing of Movies](./src/images/listing.png).
+[Details Page : Details of Movies](./src/images/details.png).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
