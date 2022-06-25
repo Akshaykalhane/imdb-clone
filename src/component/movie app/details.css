@@ -1,0 +1,144 @@
+*{
+    color: #fff;
+}
+
+.details-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+.details-img{
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+}
+
+.details-img > img{
+    width: 100%;
+    height: 450px;
+    /* border-radius: 5px; */
+}
+.movie-name{
+    width: 1000px;
+    height: 50px;
+    position: relative;
+    top: 0;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 5px;
+    text-transform: uppercase;
+    border-left: 13px solid red;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    /* border: 1px solid red; */
+}
+.movies-description{
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    /* border: 1px solid red; */
+    line-height: 28px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movie-cast{
+    width: 1000px;
+    height: 700px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    /* padding-top: 20px; */
+    padding-bottom: 30px;
+}
+.movie-cast>h2{
+    border-left: 4px solid red;
+    padding-left: 10px;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cast-box{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cast-info{
+    width: 250px;
+    height: 250px;
+    /* margin: auto; */
+    /* box-shadow: 0px 0px 5px rgba(85, 85, 85, 0.57); */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.cast-info>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* padding-bottom: 20px; */
+}
+.movie-director{
+    width: 1000px;
+    /* height: 100px; */
+    position: relative;
+    top: 0;
+    left: 0;
+    /* margin-left: 80px; */
+    margin: auto;
+    border-left: 4px solid red;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.story-line{
+    width: 1000px;
+    /* height: 200px; */
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: auto;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+}
+
+.story-line>h3{
+    font-size: 1.4rem;
+    /* padding-bottom: 20px; */
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+.story-line>p{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    line-height: 29px;
+}
+
+.movie-details{
+    width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+}
